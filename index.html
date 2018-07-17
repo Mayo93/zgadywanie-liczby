@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  	
+    <meta charset="utf-8">
+
+    <title>Zgadywanie liczby</title>
+  </head>
+
+  <body>
+    <h1>Zgadnij jaką liczbę mam na myśli</h1>
+
+    <p>Wybierz liczbę  z przedziału od 1 do 100. Sprawdź czy w przeciągu 10 tur ją odgadniesz. Podpowiem Ci czy liczba jest za duża lub za mała.</p>
+
+    <div class="form">
+      <label for="guessField">Podaj propozycję swojej liczby: </label>
+
+      <input type="text" id="guessField" class="guessField">
+
+      <input type="submit" value="Wprowadź liczbę" class="guessSubmit">
+
+    </div>
+
+    <div class="resultParas">
+
+      <p class="guesses">
+      	
+      </p>
+
+      <p class="lastResult">
+      	
+      </p>
+
+      <p class="lowOrHi">
+      	
+      </p>
+
+      <p class="randomNumberFromPC"></p>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
